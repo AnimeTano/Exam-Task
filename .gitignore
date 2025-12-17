@@ -1,0 +1,12 @@
+#json-files
+*.json
+
+
+#system files
+*.exe
+*.o
+*.obj
+
+
+#build folder
+build/
