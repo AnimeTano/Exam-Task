@@ -12,7 +12,6 @@ class User{
     public:
         User(const std::string& name, int i) : username(name), id(i) {}
 
-
         std::string getUsername() const { return username; }
         int getId() const { return id; }
 
