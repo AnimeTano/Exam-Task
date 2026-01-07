@@ -1,6 +1,8 @@
 #json-files
 *.json
 
+#txt-files
+config.txt
 
 #system files
 *.exe
