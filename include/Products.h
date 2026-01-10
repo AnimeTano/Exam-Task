@@ -14,11 +14,8 @@ class Product{
         int stock_quantity;
 
     public:
-        Product(int id, const std::string& n, double p, int q) : product_id(id), name(n), price(p), stock_quantity(q) {
-            if (price < 0) price = 0.0;
-        };
-
-        virtual ~Product() = default;
+        Product(int id, const std::string& n, double p, int q);
+        virtual ~Product();
 
         static std::shared_ptr<Product> loadFromDb(int id, DatabaseConnection<std::string>& db);
         static std::unique_ptr<Product> create(int id, const std::string& n, double p, int stock);
@@ -27,11 +24,11 @@ class Product{
         void deliveryProduct();
         void saveToDatabase(DatabaseConnection<std::string>& db);
 
-        std::string getName() const { return name; }
-        double getPrice() const { return price; }
-        int getStockquantity() const { return stock_quantity; }
+        std::string getName() const;
+        double getPrice() const;
+        int getStockquantity() const;
 
-        void setName(const std::string& newname) { name = newname; }
-        void setPrice(double newprice) { if (newprice < 0) price = 0.0; }
-        void setStockquantity(int newquantity) { stock_quantity = newquantity; }
+        void setName(const std::string& newname);
+        void setPrice(double newprice);
+        void setStockquantity(int newquantity);
 };

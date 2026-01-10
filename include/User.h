@@ -8,7 +8,7 @@
 class Order;
 
 
-class User{
+class User {
     protected:
         int user_id;
         std::string name;
@@ -18,37 +18,35 @@ class User{
         bool loyalty_level;
 
     public:
-        User(int i, const std::string& n, const std::string& e, const std::string& r, const std::string& password, bool l) :
-        user_id(i), name(n), email(e), role(r), password_hash(password), loyalty_level(l) {
+        User(int i, const std::string& n, const std::string& e, 
+            const std::string& r, const std::string& password, bool l) :
+            user_id(i), name(n), email(e), role(r), password_hash(password), loyalty_level(l) {
             if (role != "admin" && role != "manager" && role != "customer") role = "customer";
         }
 
-        virtual std::shared_ptr<Order> createOrder();
-        virtual std::string viewOrderStatus(int order_id) const;
-        virtual bool cancelOrder(int order_id);
-
-        virtual ~User();
+        virtual ~User() {}
+        
         virtual void showInfo() const = 0;
+        
+        virtual std::shared_ptr<Order> createOrder() { return nullptr; }
+        virtual std::string viewOrderStatus(int order_id) const { return ""; }
+        virtual bool cancelOrder(int order_id) { return false; }
 
-        int getUserid() const { return user_id; }
+        int getUserId() const { return user_id; }
         std::string getName() const { return name; }
         std::string getEmail() const { return email; }
         std::string getRole() const { return role; }
-        std::string getPasswordhash() const { return password_hash; }
-        bool getLoyaltylevel() const { return loyalty_level; }
-
-        void setName(const std::string& n) { name = n; }
-        void setEmail(const std::string& e) { email = e; }
-        void setLoyaltylevel(bool level) { loyalty_level = level; }
+        std::string getPasswordHash() const { return password_hash; }
+        bool getLoyaltyLevel() const { return loyalty_level; }
 };
 
 
-class Admin : public User{
+class Admin : public User {
     public:
-        Admin(int i, const std::string& n, const std::string& e, const std::string& password, bool l) : User(i, n, e, "admin", password, l) {};
-
-        std::shared_ptr<Order> createOrder() override { return nullptr; }
-
+        Admin(int i, const std::string& n, const std::string& e, 
+            const std::string& password, bool l) : User(i, n, e, "admin", password, l) {}
+        
+        void showInfo() const override;
         void addProduct();
         void updateProduct();
         void deleteProduct();
@@ -57,19 +55,23 @@ class Admin : public User{
 };
 
 
-class Manager : public User{
+class Manager : public User {
     public:
-        Manager(int i, const std::string& n, const std::string& e, const std::string& password, bool l) : User(i, n, e, "manager", password, l) {};
-
+        Manager(int i, const std::string& n, const std::string& e, 
+                const std::string& password, bool l) : User(i, n, e, "manager", password, l) {}
+        
+        void showInfo() const override;
         void approveOrder();
         void updateStock();
 };
 
 
-class Customer : public User{
+class Customer : public User {
     public:
-        Customer(int i, const std::string& n, const std::string& e, const std::string& password, bool l) : User(i, n, e, "customer", password, l) {};
-
+        Customer(int i, const std::string& n, const std::string& e, 
+                const std::string& password, bool l) : User(i, n, e, "customer", password, l) {}
+        
+        void showInfo() const override;
         void addToOrder();
         void removeFromOrder();
         void makePayment();
