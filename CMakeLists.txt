@@ -4,25 +4,31 @@ project(Store)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(LIBPQXX REQUIRED libpqxx)
+find_package(libpqxx REQUIRED)
+find_package(PostgreSQL REQUIRED)
 
-include_directories(include)
-include_directories(${LIBPQXX_INCLUDE_DIRS})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${PostgreSQL_INCLUDE_DIRS})
+include_directories(${libpqxx_INCLUDE_DIRS})
 
 set(SOURCES
+    main.cpp
     src/Database.cpp
     src/Logger.cpp
     src/Order.cpp
     src/Payment.cpp
     src/Products.cpp
     src/User.cpp
+    src/SqlScript.cpp
+    src/AuditManager.cpp
 )
 
-add_executable(Store main.cpp ${SOURCES})
+add_executable(Store ${SOURCES})
 
-target_compile_features(Store PRIVATE cxx_std_17)
-target_link_libraries(Store ${LIBPQXX_LIBRARIES})
+target_link_libraries(Store 
+    ${PostgreSQL_LIBRARIES}
+    libpqxx::pqxx
+)
 
 if(WIN32)
     target_link_libraries(Store ws2_32)
