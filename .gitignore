@@ -10,5 +10,6 @@ config.txt
 *.obj
 
 
-#build folder
+#build folder and files
 build/
+CMakeLists.txt
