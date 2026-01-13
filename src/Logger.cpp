@@ -63,7 +63,7 @@ void Logger::logOrderStatusToDatabase(
         db->executeNonQuery(query);
         
     } catch (const std::exception& e) {
-        std::cerr << "❌ Failed to log order status to DB: " << e.what() << "\n";
+        std::cerr << "Failed to log order status to DB: " << e.what() << "\n";
     }
 }
 

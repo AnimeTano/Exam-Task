@@ -38,6 +38,7 @@ bool EWalletPayment::processPayment(double amount) {
     return true;
 }
 
+
 bool SBPPayment::processPayment(double amount) {
     std::cout << "\n=== Pay by SBP ===\n";
     std::cout << "Summa: " << amount << " rub\n";
@@ -65,6 +66,7 @@ Payment::Payment(double am, std::unique_ptr<PaymentStrategy> strategy)
 void Payment::setStrategy(std::unique_ptr<PaymentStrategy> newStrategy) {
     strategy = std::move(newStrategy);
 }
+
 
 bool Payment::process() {
     if (!strategy) {
@@ -96,6 +98,7 @@ std::string Payment::getPaymentInfo() const {
            " rub, status: " + (paid ? "Paid" : "Didn`t pay") +
            ", method: " + getStrategyName();
 }
+
 
 std::string Payment::getStrategyName() const {
     return strategy ? strategy->getName() : "Didn`t choose";
