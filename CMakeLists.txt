@@ -21,6 +21,10 @@ set(SOURCES
     src/User.cpp
     src/SqlScript.cpp
     src/AuditManager.cpp
+    src/Menu.cpp
+    src/AdminMenu.cpp
+    src/ManagerMenu.cpp
+    src/CustomerMenu.cpp
 )
 
 add_executable(Store ${SOURCES})
