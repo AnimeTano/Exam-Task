@@ -42,9 +42,7 @@ class DatabaseConnection {
             }
         }
 
-        bool isConnected() const {
-            return conn && conn->is_open();
-        }
+        bool isConnected() const { return conn && conn->is_open(); }
 
         std::string getConnectionInfo() const {
             if (!isConnected()) return "Not connected";
@@ -199,7 +197,6 @@ class TransactionGuard {
 
 
 namespace DatabaseUtils {
-    
     bool tableExists(DatabaseConnection<>& db, const std::string& table_name);
     
     std::vector<std::string> getTables(DatabaseConnection<>& db);
