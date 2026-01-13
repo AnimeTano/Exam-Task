@@ -190,13 +190,7 @@ performed_by: 3 (customer), details: Status changed to completed
 ```
 
 ## Отчет в формате CSV
-Пример:
-'''
-order_id,customer_name,order_status,total_price,order_date,old_status,new_status,status_change_date,changed_by_user,audit_operation,audit_date,details
-13,Customer User,pending,0.00,2026-01-13 12:49:42.625804,,,,,insert,2026-01-13 12:49:42.633238,New order created by customer
-12,Customer User,completed,200.00,2026-01-10 17:58:22.009416,,,,,,,
-11,Customer User,completed,200.00,2026-01-10 17:25:51.066377,,,,,,,
-'''
+Пример отчеты приведен в папке reports. Для читаемости и возможности восприятия в более легкой форме
 
 SQL-запрос:
 ```SQL
