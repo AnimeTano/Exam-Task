@@ -1,0 +1,89 @@
+order_id,customer_name,order_status,total_price,order_date,old_status,new_status,status_change_date,changed_by_user,audit_operation,audit_date,details
+13,Customer User,pending,0.00,2026-01-13 12:49:42.625804,,,,,insert,2026-01-13 12:49:42.633238,New order created by customer
+12,Customer User,completed,200.00,2026-01-10 17:58:22.009416,,,,,,,
+11,Customer User,completed,200.00,2026-01-10 17:25:51.066377,,,,,,,
+10,Customer User,completed,200.00,2026-01-10 17:20:39.581285,,,,,,,
+9,Customer User,completed,200.00,2026-01-10 17:20:34.028189,,,,,,,
+8,Customer User,completed,200.00,2026-01-10 17:20:29.908913,,,,,,,
+7,Customer User,completed,200.00,2026-01-10 16:48:32.534121,completed,completed,2026-01-13 12:48:26.860602,Admin User,update,2026-01-13 12:48:26.874918,Status changed by admin to: completed
+7,Customer User,completed,200.00,2026-01-10 16:48:32.534121,completed,completed,2026-01-13 12:48:26.860602,Admin User,update,2026-01-13 12:48:26.870765,Status changed from completed to completed
+6,Customer User,completed,200.00,2026-01-10 13:02:57.813968,,,,,,,
+5,Customer User,completed,200.00,2026-01-10 13:02:53.600164,,,,,,,
+4,Customer User,completed,200.00,2026-01-10 13:02:45.290077,,,,,,,
+3,Customer User,completed,200.00,2026-01-09 01:11:12.814744,,,,,,,
+2,Customer User,completed,0.00,2026-01-08 23:58:22.340371,,,,,,,
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:29.890337,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:25:51.063824,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,insert,2026-01-10 17:58:21.993726,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:25:51.039406,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,insert,2026-01-10 17:20:39.572262,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,insert,2026-01-10 17:25:51.023582,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:39.580519,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:39.57705,Заказ оплачен через SBP
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:29.906257,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,insert,2026-01-10 17:20:29.883357,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,insert,2026-01-10 17:20:34.007575,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:34.013963,Заказ оплачен через E-Wallet
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:58:22.008375,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:58:22.001409,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:58:22.004468,Customer User,update,2026-01-10 17:20:34.026814,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:29.906257,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,insert,2026-01-10 17:20:29.883357,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:29.890337,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,insert,2026-01-10 17:20:34.007575,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:34.013963,Заказ оплачен через E-Wallet
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:34.026814,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,insert,2026-01-10 17:20:39.572262,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:39.57705,Заказ оплачен через SBP
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:20:39.580519,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,insert,2026-01-10 17:25:51.023582,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:25:51.039406,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:25:51.063824,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,insert,2026-01-10 17:58:21.993726,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:58:22.001409,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:25:51.047388,Customer User,update,2026-01-10 17:58:22.008375,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:39.580519,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:58:22.008375,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:34.026814,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,insert,2026-01-10 17:20:29.883357,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,insert,2026-01-10 17:58:21.993726,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:39.57705,Заказ оплачен через SBP
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:58:22.001409,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,insert,2026-01-10 17:20:34.007575,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,insert,2026-01-10 17:20:39.572262,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:25:51.039406,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:29.906257,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:34.013963,Заказ оплачен через E-Wallet
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,insert,2026-01-10 17:25:51.023582,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:20:29.890337,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:39.578837,Customer User,update,2026-01-10 17:25:51.063824,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:34.013963,Заказ оплачен через E-Wallet
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,insert,2026-01-10 17:25:51.023582,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:29.890337,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:25:51.039406,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:34.026814,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:25:51.063824,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,insert,2026-01-10 17:58:21.993726,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,insert,2026-01-10 17:20:29.883357,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:58:22.001409,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:39.580519,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:58:22.008375,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,insert,2026-01-10 17:20:34.007575,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:29.906257,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,update,2026-01-10 17:20:39.57705,Заказ оплачен через SBP
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:34.021327,Customer User,insert,2026-01-10 17:20:39.572262,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:29.890337,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:58:22.008375,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:25:51.039406,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,insert,2026-01-10 17:20:34.007575,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:39.57705,Заказ оплачен через SBP
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:34.026814,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:29.906257,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:34.013963,Заказ оплачен через E-Wallet
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,insert,2026-01-10 17:20:39.572262,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,insert,2026-01-10 17:58:21.993726,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:20:39.580519,Status changed from pending to completed
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:58:22.001409,Заказ оплачен через Credit Card
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,insert,2026-01-10 17:25:51.023582,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,insert,2026-01-10 17:20:29.883357,Создан новый заказ на сумму 200.000000
+1,Customer User,completed,200.00,2026-01-08 23:58:16.203,pending,completed,2026-01-10 17:20:29.896478,Customer User,update,2026-01-10 17:25:51.063824,Status changed from pending to completed
